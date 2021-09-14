@@ -1,1 +1,11 @@
-{}
+{
+  "omen": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeology_ideas:minecraft_ust_-_omen_music_disc_concept",
+        "stream": true
+      }
+    ]
+  }
+}

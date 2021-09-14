@@ -45,6 +45,8 @@ public class ArcheologyIdeasModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ArcheologyIdeasModElements() {
+		sounds.put(new ResourceLocation("archeology_ideas", "omen"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeology_ideas", "omen")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeology_ideas").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
